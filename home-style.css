@@ -1,0 +1,85 @@
+:root {
+    --font-primary: 'Roboto', sans-serif;
+    --white: #ffffff;
+}
+  
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+html, body {
+    width: 100%;
+    position: relative;
+}
+.hero-banner{
+    width: auto;
+    height: 945px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-image{
+    width: 100%;
+    height: 100%;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description{
+    width: 896px;
+    height: 279px;
+    font-family: var(--font-primary);
+    font-size: 48px;
+    font-weight: bold;
+    text-align: justify;
+    position: absolute;
+    color: var(--white);
+}
+
+.about {
+    width: auto;
+    height: 596px;
+    background-color: #162A39;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    width: 914px;
+    height: 384px;
+}
+
+.about-figure img {
+    width: 310px;
+    height: 324px;
+}
+
+.about h2 {
+    font-family: var(--font-primary);
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--white);
+    margin-bottom: 55px;
+}
+
+.about p {
+    width: 841px;
+    font-family: var(--font-primary);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;
+    color: var(--white);
+    margin-bottom: 24px;
+}
