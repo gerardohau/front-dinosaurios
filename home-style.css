@@ -188,6 +188,27 @@ a{
       box-sizing: border-box;
       background: transparent;
   }
+
+  .contact-page h1, .contact-page input, .contact-page select, .contact-page h4 {
+    font-family: var(--font-primary);   
+    
+  }
+
+  .contact-page input, .contact-page select, .contact-page h4 {
+      font-size: medium;
+      font-weight: normal;
+  }
+
+  .contact-page h4 {
+      margin-bottom: 1em;
+  }
+
+  .contact-page  textarea{
+      width: 500px;
+      height: 100px;
+  }
+
+
     
   .contact-page input[type=submit] {
       width: 100px;
@@ -256,6 +277,7 @@ a{
       .contact-page .imagen-referencia {
         width: 150px;
         height: 150px;
+        margin-top: 1em;
       }
   
       
