@@ -73,6 +73,7 @@ body {
 .information {
     width: 914px;
     height: 384px;
+    margin-top: 2em;
 }
 
 .about-figure img {
@@ -172,6 +173,8 @@ a{
     width: 275px;
     display: flex;
     margin: auto;
+    padding: 0 10px;
+    text-align: justify;
     flex-direction: column;
     justify-content: center;
 }
@@ -476,9 +479,84 @@ a{
     margin: 2rem auto;
   }
 
+  .information, .about {
+    height: auto;
+  }
+  
+  .description{
+    width: 70%;
+    height: auto;
+  }
+  
+  .information h2, .information p {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+  }
+
+  .information, .about {
+    height: auto;
+  }
+  
+  .description{
+    width: 70%;
+    height: auto;
+  }
+  
+  .information h2, .information p {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+  }
+
+  .card-container {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .service-card{
+    width: 70%;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .service-card-content {
+    width: auto;
+  }
+  .service-card-content h2 {
+    font-size: 15px;
+  }
+
+  .service-card-content p {
+    font-size: 12px;
+  }
+  /* end home styles*/
+  
+  .column-service{
+    width:30%;
+  }
+
+  .card {
+    margin: 2rem auto;
+  }
+
+  
+
 } 
 
+ 
+
 @media screen and (max-width: 1001px) and (min-width: 800px) {
+  .contact-page input[type=text], select {
+    width: 500px;
+    padding: 12px 0px;   
+   
+  }
+
+  .contact-page .content {
+    width: 900px;
+  }
   /* home styles */
   .information, .about {
     height: auto;
@@ -532,9 +610,11 @@ a{
     margin: 2rem auto;
   }
 
+  
+
 } 
 
-@media screen and (max-width: 800px) and (min-width: 400px) {
+@media screen and (max-width: 800px) and (min-width: 320px) {
   /* home styles */
   .description{
     width: 80%;
@@ -545,6 +625,23 @@ a{
   .information, .about {
     width: auto;
     height: auto;
+  }
+
+  .service-header{
+    width: auto;
+    overflow: hidden;
+  }
+
+  .service-header h2 {
+    font-size: 5vw;
+  }
+
+  .service-header figure {
+    display: none;
+  }
+  
+  .service-card-content{
+    width: auto;
   }
 
   .about{
@@ -571,9 +668,7 @@ a{
     margin-bottom: 24px;
   }
 
-  .service-header figure {
-    visibility: hidden;
-  }
+ 
 
   .card-container {
     flex-direction: column;
@@ -589,13 +684,18 @@ a{
   }
 
   .service-card{
-    margin: 18px 0px;
+    margin: 10px 0px;
+    width: 100%;
   }
   /*end home styles */
 
   .contact-page .content {
-    width: 500px;
-    margin-right: 2em;
+    width: 450px;
+    margin-right: 0.5em;
+  }
+
+  .contact-page .form {
+    margin-left: 10px;
   }
 
   .contact-page .fila input[type=text], .contact-page .fila select, .contact-page textarea {
@@ -636,60 +736,3 @@ a{
   }
 } 
 
-@media screen and (max-width: 400px) {
-  .description{
-    width: 80%;
-    height: auto;
-    font-size: 24px;
-  }
-
-  .information, .about {
-    width: auto;
-    height: auto;
-  }
-
-  .about{
-    flex-direction: column;
-  }
-
-  .information h2, .information p {
-    width: 85%;
-    height: auto;
-    margin: auto;
-    margin-bottom: 18px;
-  }
-
-  .information h2 {
-    margin-top: 24px;
-    font-size: 24px;
-  }
-
-  .information p {
-    font-size: 18px;
-  }
-
-  .about-figure img {
-    margin-bottom: 24px;
-  }
-
-  .service-header figure {
-    visibility: hidden;
-  }
-
-  .card-container {
-    flex-direction: column;
-  }
-
-  .services, .card-container{
-    height: auto;
-  }
-
-  .card-container a{
-    width: auto;
-    margin: auto;
-  }
-
-  .service-card{
-    margin: 18px 0px;
-  }
-}
