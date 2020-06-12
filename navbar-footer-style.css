@@ -1,13 +1,14 @@
 :root {
     --white: white;
     --black: black;
-    --color-line-botton:#d1c9cb;
+    --color-link:#d1c9cb;
     --color-background-footer: #CFC4BA;
     --font-primary: 'Roboto', sans-serif;
 }
+
 .nav-bar {
     position: fixed;
-    top:0;
+    top: 0;
     width: 100vw;
     background-color: var(--black);  
     display: flex;
@@ -52,7 +53,7 @@
 }
 
 .nav-bar a:hover {
-   color: var(--color-line-botton);
+   color: var(--color-link);
 }
 
 .nav-bar p {
