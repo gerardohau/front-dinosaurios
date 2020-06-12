@@ -232,7 +232,7 @@ a{
 
   .contact-page input[type=submit] {
       width: 100px;
-      background-color: #4CAF50;
+      background-color: var(--color-font);
       color: white;
       padding: 12px 10px;
       border: none;
@@ -242,7 +242,7 @@ a{
     }
     
     .contact-page input[type=submit]:hover {
-      background-color: #45a049;
+      background-color: var(--color-line-botton);
     }
     
     .contact-page .fila {
