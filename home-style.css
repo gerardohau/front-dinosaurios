@@ -8,7 +8,7 @@
     --color-card-botton: #1CE818;
     --color-footer: #CFC4BA;
     --width-big-card: 41%;
-    --height-big-card:565px;  
+    --height-big-card:555px;  
     --width-normal-card: 265px;
     --height-normal-card:340px;
     --width-small-card: 240px;
@@ -572,11 +572,11 @@ a{
 
   
   .column-service{
-    width:58%;
+    width:57%;
   }
 
   .large {
-    width: 42%;
+    width: 41%;
   }
 
   /* service page */
