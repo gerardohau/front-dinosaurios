@@ -155,6 +155,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0px 15px;
 }
 
 .service-card-figure {
@@ -478,6 +479,45 @@ a{
 } 
 
 @media screen and (max-width: 1001px) and (min-width: 800px) {
+  /* home styles */
+  .information, .about {
+    height: auto;
+  }
+  
+  .description{
+    width: 70%;
+    height: auto;
+  }
+  
+  .information h2, .information p {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+  }
+
+  .card-container {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .service-card{
+    width: 70%;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .service-card-content {
+    width: auto;
+  }
+  .service-card-content h2 {
+    font-size: 15px;
+  }
+
+  .service-card-content p {
+    font-size: 12px;
+  }
+  /* end home styles*/
 
   .contact-page .content {
     width: 500px;
@@ -495,6 +535,63 @@ a{
 } 
 
 @media screen and (max-width: 800px) and (min-width: 400px) {
+  /* home styles */
+  .description{
+    width: 80%;
+    height: auto;
+    font-size: 24px;
+  }
+
+  .information, .about {
+    width: auto;
+    height: auto;
+  }
+
+  .about{
+    flex-direction: column;
+  }
+
+  .information h2, .information p {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 18px;
+  }
+
+  .information h2 {
+    margin-top: 24px;
+    font-size: 24px;
+  }
+
+  .information p {
+    font-size: 18px;
+  }
+
+  .about-figure img {
+    margin-bottom: 24px;
+  }
+
+  .service-header figure {
+    visibility: hidden;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .services, .card-container{
+    height: auto;
+  }
+
+  .card-container a{
+    width: auto;
+    margin: auto;
+  }
+
+  .service-card{
+    margin: 18px 0px;
+  }
+  /*end home styles */
 
   .contact-page .content {
     width: 500px;
@@ -538,3 +635,61 @@ a{
     height: var(--height-small-card);
   }
 } 
+
+@media screen and (max-width: 400px) {
+  .description{
+    width: 80%;
+    height: auto;
+    font-size: 24px;
+  }
+
+  .information, .about {
+    width: auto;
+    height: auto;
+  }
+
+  .about{
+    flex-direction: column;
+  }
+
+  .information h2, .information p {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 18px;
+  }
+
+  .information h2 {
+    margin-top: 24px;
+    font-size: 24px;
+  }
+
+  .information p {
+    font-size: 18px;
+  }
+
+  .about-figure img {
+    margin-bottom: 24px;
+  }
+
+  .service-header figure {
+    visibility: hidden;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .services, .card-container{
+    height: auto;
+  }
+
+  .card-container a{
+    width: auto;
+    margin: auto;
+  }
+
+  .service-card{
+    margin: 18px 0px;
+  }
+}
